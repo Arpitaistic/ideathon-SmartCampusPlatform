@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campus Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1>Smart Campus Platform</h1>
+            <p>Your Safety, Our Priority</p>
+            <a href="#features" class="btn">Learn More</a>
+            <a href="#contact" class="btn">Get the App</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <h3>Panic Button</h3>
+                    <button id="panic-btn" class="btn panic-btn">Press for Emergency</button>
+                    <p>Live location sharing for emergencies.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Crowd Monitoring</h3>
+                    <p>AI-driven alerts to prevent overcrowding.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Real-Time Alerts</h3>
+                    <p>Notifications for weather and campus closures.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Micro-Learning</h3>
+                    <p>Skill-building modules for students.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We aim to make campuses safer and smarter with technology-driven solutions.</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form" onsubmit="return validateForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Smart Campus Platform. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
